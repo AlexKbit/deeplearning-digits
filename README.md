@@ -17,6 +17,6 @@ This solution based on [deeplearning4j](https://deeplearning4j.org/index.html).
 <img alt="UI digit 8" src="https://ndownloader.figshare.com/files/12476876/preview/12476876/preview.jpg">
 
 Open application by root path.
-  - 1) Draw you digit in window
-  - 2) Submit your image
-  - 3) Get result of digit on image
+  - Draw you digit in window
+  - Submit your image
+  - Get result of digit on image
