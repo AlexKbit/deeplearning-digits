@@ -15,7 +15,8 @@ This solution based on [deeplearning4j](https://deeplearning4j.org/index.html).
 <img alt="UI digit 1" src="https://ndownloader.figshare.com/files/12476879/preview/12476879/preview.jpg">
 <img alt="UI digit 3" src="https://ndownloader.figshare.com/files/12476873/preview/12476873/preview.jpg">
 <img alt="UI digit 8" src="https://ndownloader.figshare.com/files/12476876/preview/12476876/preview.jpg">
+
 Open application by root path.
-1) Draw you digit in window
-2) Submit your image
-3) Get result of digit on image
+  - 1) Draw you digit in window
+  - 2) Submit your image
+  - 3) Get result of digit on image
