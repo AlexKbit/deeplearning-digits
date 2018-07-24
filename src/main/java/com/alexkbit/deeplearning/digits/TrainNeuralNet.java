@@ -30,7 +30,7 @@ public class TrainNeuralNet {
     private static String NN_MODEL_NAME = "nnModel";
     private static String RESOURCE_PATH = "./src/main/resources/";
 
-    private static final int BATCH_SIZE = 40;
+    private static final int BATCH_SIZE = 242;
 
     private static final int IMG_SIZE = 50;
     private static final int INPUT_COUNT = IMG_SIZE * IMG_SIZE;
@@ -53,7 +53,7 @@ public class TrainNeuralNet {
         normalizer.fit(allData);
         normalizer.transform(allData);
 
-        SplitTestAndTrain testAndTrain = allData.splitTestAndTrain(0.80);
+        SplitTestAndTrain testAndTrain = allData.splitTestAndTrain(0.75);
         DataSet trainingData = testAndTrain.getTrain();
         DataSet testData = testAndTrain.getTest();
         System.out.println("All data ready");
